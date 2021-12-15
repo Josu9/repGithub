@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Biblioteca (models.Model):
+class Bibliotecasp (models.Model):
      ubicacion = models.CharField(max_length=60)
      nroAsociados = models.IntegerField()
 
