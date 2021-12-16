@@ -3,7 +3,9 @@ from App1 import views
 
 urlpatterns = [
     
- path('inicio',views.inicio),
- path('bibliotecas',views.bibliotecas),
+ path('inicio',views.inicio, name = "Inicio"),
+ path('bibliotecas',views.bibliotecas, name = "Bibliotecas"),
+ path('libros',views.libros, name = "Libros"),
+ path('asociados',views.asociados, name = "Asociados"),
     
 ]
