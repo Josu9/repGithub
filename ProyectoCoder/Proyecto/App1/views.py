@@ -14,12 +14,17 @@ def bibliotecas(request):
      
     return render(request, "App1/bibliotecas.html")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 415ca0f6f6a05799160d02afd0d264db48157be1
 def libros(request):
      
     return render(request, "App1/libros.html")
 
 def asociados(request):
      
+<<<<<<< HEAD
     return render(request, "App1/asociados.html")
 
 
@@ -63,3 +68,6 @@ def asociadosFormulario(request):
          
      
      return render(request, "App1/asociadosFormulario.html")
+=======
+    return render(request, "App1/asociados.html")
+>>>>>>> 415ca0f6f6a05799160d02afd0d264db48157be1
